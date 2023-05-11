@@ -1,0 +1,3 @@
+Jan 12 2023 08:51:10
+{"type":2,"message":"fopen(\/home\/codearts\/public_html\/rightwayrealestate\/wp-content\/plugins\/all-in-one-wp-migration\/storage\/error.log): failed to open stream: Disk quota exceeded","file":"\/home\/codearts\/public_html\/rightwayrealestate\/wp-content\/plugins\/all-in-one-wp-migration\/functions.php","line":1458}
+
