@@ -17,4 +17,4 @@ jobs:
         server: betinhouston.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/projects-directory/betin-houston-html/
+        server-dir: /projects-directory/betin-houston-html/
