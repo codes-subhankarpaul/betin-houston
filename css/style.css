@@ -1,0 +1,136 @@
+/******** Google Fonts ********/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/******** Color Schemes ********/
+
+:root {
+  --c-primary-dark: #FC6400;
+  --c-white: #ffffff;
+  --c-blue: #0012A2;
+  --c-red: #F12D2D;
+  --c-black-text: #000000;
+  --c-light-grey: #C0C0C0;
+  --c-dark-grey: #4F4F4F;
+  --c-primary-text: #FF5600;
+  --c-secondary-text: #2D2D2D;
+  --c-semi-grey: #666666;
+  --ff-primary: 'Montserrat', sans-serif;
+}
+
+
+/******** CSS Resets ********/
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a:focus, a:hover {
+  outline: none;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: var(--c-black-text);
+  line-height: 18px;
+  font-weight: 400;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: 14px;
+  color: var(--c-black-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ff-primary);
+  margin-bottom: 0;
+}
+
+/******** Utility Classes ********/
+/*
+.container {
+  width: 100%;
+  max-width: 1360px;
+}
+*/
+
+.custom-pad {
+  padding: 60px 0;
+}
+.login_custom {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 9;
+  justify-content: center;
+align-items: center;
+}
+.login_custom::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.92);
+  z-index: -1;
+}
+.custom_frm {
+  background-color: #fff;
+  padding: 100px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.16);
+}
+.custom_frm input , .custom_frm select {
+  height: 40px;
+  border-radius: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+ .custom_frm textarea{
+  border-radius: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+  height: 120px;
+ }
+ .submit-button{
+  text-align: center;
+ }
+ .submit-button input {
+  background-color: #8559e6;
+  border: 0;
+  width: 200px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px 0;
+  height: auto;
+}
